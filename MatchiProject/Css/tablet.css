@@ -1,3 +1,21 @@
-@media (min-width: 768){
-    
-}
+@media (width >= 768px){
+    .nav-bar-collapse{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-bar-left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .span-header-icon{
+        display: none;
+    }
+
+    .header-nav-bar{
+        justify-content: space-between;
+    }
+} 
