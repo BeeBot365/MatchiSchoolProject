@@ -6,9 +6,12 @@
     display: none;
 }
 
+
 * {
     box-sizing: border-box;
 }
+
+
 
 body{
     font-family: 'Barlow', Helvetica, Arial, sans-serif;
@@ -91,8 +94,13 @@ header {
     margin: 0;
     padding-top: 0px;
     width: 100%;
-    height: 400px;
+    height: 100%;
     background-position: center;
+}
+
+.splash-container{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.35) 100%);
+    padding-top: 70px;
 }
 
 .hero-container{
@@ -101,24 +109,135 @@ header {
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
-    height: 100%;
+    max-width: 750px;
 }
 
 .text-center{
     text-align: center;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
 }
 
 .h1 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 2.2rem;
+    font-size: 26.4px;
     letter-spacing: 0.6px;
     color: #ffffff;
     font-weight: 700;
-    font-size: 26.4px;
     text-align: center;
     text-size-adjust: 100%;
-    line-height: 29px;
+}
+
+.space-10{
+    height: 10px;
+}
+
+.space-20{
+    height: 20px;
+}
+
+.form-main{
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 4px;
+}
+
+.main-div{
+    width: 100%;
+}
+
+
+.sport-selector{
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #fff;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 45px;
+    font-family: 'Barlow', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+.form-div {
+    background-color: #fff;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 45px;
+    font-family: 'Barlow', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+.arrow-icon{
+    font-size: 1.2rem;
+    margin-right: -6px;
+}
+
+.calendar-icon{
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.form-input{
+    border: none;
+    color: rgb(110, 110, 110);
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+.form-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.form-input-last::placeholder{
+    color: rgba(110, 110, 110, 0.5);
+}
+
+.button-smash{
+    background-color: #25ae5c;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 45px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 10.8px;
+    letter-spacing: 0.8px;
+    font-family: "barlow";
+}
+
+
+@media(width >=480px) {
+    .hero-container {
+        padding: 0px 30px;
+    }
+}
+
+@media(width >= 496px){
+    .h1{
+        font-size: clamp(26.4px, 5.4vw, 33px);
+        line-height: 1.1;
+    }
+
+    .button-smash{
+        font-size: clamp(10.8px, 2.182vw, 13.5px);
+    }
 }

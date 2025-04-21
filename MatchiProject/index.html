@@ -7,10 +7,17 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="Css/mobile.css" />
     <link rel="stylesheet" href="Css/tablet.css" />
@@ -84,15 +91,50 @@
     </header>
     <main>
       <div class="hero">
-        <div class="hero-container">
-          <div class="filler"></div>
-          <div class="text-center">
-            <h2 class="h1">Hitta anläggningar & lediga tider nära dig!</h2>
+        <div class="splash-container">
+          <div class="hero-container">
+            <div class="stripe">
+              <div class="main-div">
+                <div class="text-center">
+                  <h2 class="h1">
+                    Hitta anläggningar & lediga tider nära dig!
+                  </h2>
+                </div>
+                <div class="space-10"></div>
+                <form class="form-main" action="/" method="post">
+                  <button class="sport-selector">
+                    Alla sporter
+                    <span class="material-icons arrow-icon"
+                      >arrow_drop_down</span
+                    >
+                  </button>
+                  <div class="form-div">
+                    <input
+                      type="text"
+                      placeholder="2025-04-20"
+                      class="form-input"
+                    />
+                    <span class="fa-solid fa-calendar calendar-icon"></span>
+                  </div>
+                  <div class="form-div">
+                    <input
+                      type="text"
+                      placeholder="Hitta anläggning, stad ..."
+                      class="form-input form-input-last"
+                    />
+                  </div>
+                  <button class="button-smash">SMASH!</button>
+                </form>
+                <div class="space-20"></div>
+              </div>
+            </div>
           </div>
-          <form action="/" method="post"></form>
         </div>
       </div>
     </main>
+    <div class="filler"></div>
+    <div class="filler"></div>
+    <div class="filler"></div>
     <div class="filler"></div>
   </body>
 </html>

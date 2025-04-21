@@ -68,6 +68,31 @@
         display: flex;
         gap: 0.7rem;
     }
+
+    .hero-container{
+        padding: 0 40px;
+    }
+
+    .form-main{
+        display: flex;
+        flex: 1;
+    }
+
+    .splash-container{
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+
+    .stripe{
+        display: flex;
+        justify-content: center;
+        padding: 60px 0;
+    }
+
+    .button-smash{
+        padding: 0 0;
+    }
+
 } 
 
 @media(width >= 992px){
@@ -77,6 +102,23 @@
     .header-div-container{
        max-width: 992px;
     }
+    
+    .splash-container{
+        padding-top: 110px;
+        padding-bottom: 100px;
+    }
+
+    .hero-container{
+        max-width: 970px;
+    }
+
+    .stripe{
+        width: 100%;
+    }
+
+    .main-div{
+        width: 750px;
+    }
 }
 
 @media(width >= 1200px)
@@ -84,7 +126,6 @@
     .header-div-container{
         max-width: 100%;
     }
-
 
     .nav-bar-right{
         margin-left: 3rem;
