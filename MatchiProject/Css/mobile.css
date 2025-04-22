@@ -53,15 +53,35 @@ h4 {
 }
 
 .footercontainer {
-    margin: auto;
-    padding-left: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
     padding-right: 15px;
-    width: 750px;
+}
+
+#topfooter .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-size-adjust: 100;
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: 100%;
+}
+
+.topfooterpic {
+    width: 25%;
+}
+
+.partner {
+    margin: 20px 0;
 }
 
 .footer-column {
     display: flex;
     flex-direction: row;
+    width: 100%;
     margin-bottom: 10px;
 }
 
@@ -119,6 +139,10 @@ h6 {
         padding-left: 5px;
         padding-right: 5px;
         font-weight: lighter;
+    }
+
+    #topfooter .row {
+        gap: 16px;
     }
 
 }
