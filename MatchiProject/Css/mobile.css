@@ -222,6 +222,44 @@ header {
     font-size: 10.8px;
     letter-spacing: 0.8px;
     font-family: "barlow";
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.about{
+    padding-top: 20px;
+}
+
+.h2-about{
+    padding: 0 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.p-about{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.bottom{
+    padding-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 190px;
+}
+
+.phone{
+    background-image: url("../Images/matchi-phone-v2.png");
+    background-position-x: 50%; 
+    background-position-y: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 190px;
 }
 
 
