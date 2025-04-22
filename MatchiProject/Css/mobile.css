@@ -1,11 +1,40 @@
+.nav-bar-collapse{
+    display: none;
+}
+
+.nav-bar-left{
+    display: none;
+}
+
+
 * {
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
+=======
+
+
+body{
+>>>>>>> 6b480ef93f67d9045ad5390d6c1caed57b6ed455
     font-family: 'Barlow', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    position: relative;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+    
+}
+
+/*Eventuellt ta bort då Tobias redan fixat*/
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 h4 {
@@ -14,11 +43,12 @@ h4 {
 }
 
 .filler {
-    height: 10rem;
+    min-height: 70px;
     width: 100%;
     background-color: lightblue;
 }
 
+<<<<<<< HEAD
 #footer {
     background-color: #222;
     color: #ffffff;
@@ -72,3 +102,245 @@ h6 {
 
 
 
+=======
+header {
+    background-image: linear-gradient(90deg, rgb(34, 173, 92) 0%, rgb(107, 200, 70) 100%);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    height: 70px;
+    background-color: #25ae5c;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.header-div-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    max-width: 768px;
+}
+
+.header-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.a-menu-logo{
+    width: 6rem;
+    height: auto;
+    text-decoration: none;
+}
+
+.a-menu-logo img{
+    color: white;
+    width: 105px;
+    padding-right: 15px;
+}
+
+.span-header-icon{
+    display: block;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 0;
+}
+
+.hero {
+    background-image: url("../Images/intro-tennis-2.jpg");
+    background-size: cover;
+    margin: 0;
+    padding-top: 0px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.splash-container{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.35) 100%);
+    padding-top: 70px;
+}
+
+.hero-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 750px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26.4px;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+.space-10{
+    height: 10px;
+}
+
+.space-20{
+    height: 20px;
+}
+
+.form-main{
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 4px;
+}
+
+.main-div{
+    width: 100%;
+}
+
+
+.sport-selector{
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #fff;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 45px;
+    font-family: 'Barlow', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+.form-div {
+    background-color: #fff;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 45px;
+    font-family: 'Barlow', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+.arrow-icon{
+    font-size: 1.2rem;
+    margin-right: -6px;
+}
+
+.calendar-icon{
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.form-input{
+    border: none;
+    color: rgb(110, 110, 110);
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+.form-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.form-input-last::placeholder{
+    color: rgba(110, 110, 110, 0.5);
+}
+
+.button-smash{
+    background-color: #25ae5c;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 45px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 10.8px;
+    letter-spacing: 0.8px;
+    font-family: "barlow";
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.about{
+    padding-top: 20px;
+}
+
+.h2-about{
+    padding: 0 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.p-about{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.bottom{
+    padding-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 190px;
+}
+
+.phone{
+    background-image: url("../Images/matchi-phone-v2.png");
+    background-position-x: 50%; 
+    background-position-y: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 190px;
+}
+
+
+@media(width >=480px) {
+    .hero-container {
+        padding: 0px 30px;
+    }
+}
+
+@media(width >= 496px){
+    .h1{
+        font-size: clamp(26.4px, 5.4vw, 33px);
+        line-height: 1.1;
+    }
+
+    .button-smash{
+        font-size: clamp(10.8px, 2.182vw, 13.5px);
+    }
+}
+>>>>>>> 6b480ef93f67d9045ad5390d6c1caed57b6ed455
