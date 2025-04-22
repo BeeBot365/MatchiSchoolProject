@@ -1,8 +1,8 @@
-.nav-bar-collapse{
+.nav-bar-collapse {
     display: none;
 }
 
-.nav-bar-left{
+.nav-bar-left {
     display: none;
 }
 
@@ -11,13 +11,9 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
+
+
 body {
-=======
-
-
-body{
->>>>>>> 6b480ef93f67d9045ad5390d6c1caed57b6ed455
     font-family: 'Barlow', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -25,9 +21,9 @@ body{
 }
 
 a {
-   color: inherit;
-   text-decoration: none;
-    
+    color: inherit;
+    text-decoration: none;
+
 }
 
 /*Eventuellt ta bort då Tobias redan fixat*/
@@ -48,61 +44,90 @@ h4 {
     background-color: lightblue;
 }
 
-<<<<<<< HEAD
 #footer {
     background-color: #222;
     color: #ffffff;
     font-size: .9em;
     padding: 30px 0 20px;
     text-align: center;
-    ;
 }
 
-.footer-div1 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+.footercontainer {
+    margin: auto;
+    padding-left: 15px; 
+    padding-right: 15px;
+    width: 750px;
 }
 
-.footer-div2 {
+.footer-column {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-.footer-div3 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-.footer-div4 {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 10px;
 }
 
 .cookies {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     padding-top: 20px;
 }
 
 h6 {
-    margin: 0px;
+    margin: 0;
 }
 
 .unstyle {
     list-style: none;
     text-align: center;
-    padding-left: 0px;
+    padding-left: 0;
+}
+
+.h4footer {
+    font-weight: 100 !important;
+    font-size: 1.75rem;
+    font-weight: normal;
+}
+
+#h6row {
+    color: rgb(167, 166, 166);
+}
+
+.inputlanguage {
+    box-sizing: unset;
+    padding: 3px 16px;
+}
+
+
+@media (max-width: 767px) {
+
+    .footer-column,
+    .cookies {
+        flex-direction: column;
+    }
+
+    .hidden-xs {
+        display: none !important;
+    }
+
+    .h6footer {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    #h6row {
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: lighter;
+    }
+
 }
 
 
 
 
 
-=======
+
 header {
     background-image: linear-gradient(90deg, rgb(34, 173, 92) 0%, rgb(107, 200, 70) 100%);
     font-size: 14px;
@@ -126,26 +151,26 @@ header {
     max-width: 768px;
 }
 
-.header-nav-bar{
+.header-nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.a-menu-logo{
+.a-menu-logo {
     width: 6rem;
     height: auto;
     text-decoration: none;
 }
 
-.a-menu-logo img{
+.a-menu-logo img {
     color: white;
     width: 105px;
     padding-right: 15px;
 }
 
-.span-header-icon{
+.span-header-icon {
     display: block;
     margin-right: 2rem;
     font-size: 1.5rem;
@@ -162,12 +187,12 @@ header {
     background-position: center;
 }
 
-.splash-container{
+.splash-container {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.35) 100%);
     padding-top: 70px;
 }
 
-.hero-container{
+.hero-container {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -176,7 +201,7 @@ header {
     max-width: 750px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -191,26 +216,26 @@ header {
     text-size-adjust: 100%;
 }
 
-.space-10{
+.space-10 {
     height: 10px;
 }
 
-.space-20{
+.space-20 {
     height: 20px;
 }
 
-.form-main{
+.form-main {
     background: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 4px;
 }
 
-.main-div{
+.main-div {
     width: 100%;
 }
 
 
-.sport-selector{
+.sport-selector {
     font-weight: 500;
     font-size: 14px;
     background-color: #fff;
@@ -246,17 +271,17 @@ header {
     color: rgb(110, 110, 110);
 }
 
-.arrow-icon{
+.arrow-icon {
     font-size: 1.2rem;
     margin-right: -6px;
 }
 
-.calendar-icon{
+.calendar-icon {
     font-size: 12px;
     padding: 5px 0px;
 }
 
-.form-input{
+.form-input {
     border: none;
     color: rgb(110, 110, 110);
     background-color: transparent;
@@ -264,16 +289,16 @@ header {
 }
 
 .form-input::placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
 }
 
-.form-input-last::placeholder{
+.form-input-last::placeholder {
     color: rgba(110, 110, 110, 0.5);
 }
 
-.button-smash{
+.button-smash {
     background-color: #25ae5c;
     text-align: center;
     width: 100%;
@@ -290,35 +315,35 @@ header {
     cursor: pointer;
 }
 
-.about{
+.about {
     padding-top: 20px;
 }
 
-.h2-about{
+.h2-about {
     padding: 0 0;
     margin: 0;
     margin-bottom: 10px;
 }
 
-.p-about{
+.p-about {
     padding: 0 0;
     margin: 0 0;
 }
 
-.bottom{
+.bottom {
     padding-top: 20px;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
     width: 10rem;
     height: 190px;
 }
 
-.phone{
+.phone {
     background-image: url("../Images/matchi-phone-v2.png");
-    background-position-x: 50%; 
+    background-position-x: 50%;
     background-position-y: 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -333,14 +358,13 @@ header {
     }
 }
 
-@media(width >= 496px){
-    .h1{
+@media(width >=496px) {
+    .h1 {
         font-size: clamp(26.4px, 5.4vw, 33px);
         line-height: 1.1;
     }
 
-    .button-smash{
+    .button-smash {
         font-size: clamp(10.8px, 2.182vw, 13.5px);
     }
 }
->>>>>>> 6b480ef93f67d9045ad5390d6c1caed57b6ed455

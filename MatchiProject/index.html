@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<<<<<<< HEAD
+
+</html>
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="Css/mobile.css" />
   <link rel="stylesheet" href="Css/tablet.css" />
   <link rel="stylesheet" href="Css/dekstop.css" />
@@ -14,245 +18,208 @@
 </head>
 
 <body>
+  <header>
+    <div class="header-div-container">
+      <nav class="header-nav-bar">
+        <a class="a-menu-logo" href="#">
+          <img src="Images\matchi-logo-white-on-black.svg" alt="Företagets logga Matchi" />
+        </a>
+        <span class="material-icons span-header-icon">menu</span>
+      </nav>
+      <nav class="nav-bar-collapse">
+        <ul class="nav-bar-left">
+          <li>
+            <a href="#">
+              <span>BOKA</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>AKTIVITETER</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>ANLÄGGNINGAR</span>
+            </a>
+          </li>
+          <li>
+            <a class="a-perks" href="#">
+              <span> HÄLSOFÖRMÅN OCH PRESENTKORT</span>
+            </a>
+          </li>
+          <li>
+            <a class="a-connect-facillity" href="#">
+              <span class="span-connect-facility">ANSLUT DIN ANLÄGGNING</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav-bar-right">
+          <li>
+            <a href="#">
+              <span class="SV-arrow">
+                SV
+                <b class="material-icons" style="font-size: 15px">arrow_drop_down</b>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>LOGGA IN</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>REGISTRERA DIG</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="splash-container">
+        <div class="hero-container">
+          <div class="stripe">
+            <div class="main-div">
+              <div class="text-center">
+                <h2 class="h1">
+                  Hitta anläggningar & lediga tider nära dig!
+                </h2>
+              </div>
+              <div class="space-10"></div>
+              <form class="form-main" action="/" method="post">
+                <button class="sport-selector">
+                  Alla sporter
+                  <span class="material-icons arrow-icon">arrow_drop_down</span>
+                </button>
+                <div class="form-div">
+                  <input type="text" placeholder="2025-04-20" class="form-input" />
+                  <span class="fa-solid fa-calendar calendar-icon"></span>
+                </div>
+                <div class="form-div">
+                  <input type="text" placeholder="Hitta anläggning, stad ..." class="form-input form-input-last" />
+                </div>
+                <button class="button-smash">SMASH!</button>
+              </form>
+              <div class="space-20"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="about">
+    <div class="hero-container">
+      <div class="top">
+        <h2 class="h2-about">
+          Vi vill göra racketsporter roligare, enklare och mer tillgängliga
+        </h2>
+        <p class="p-about">
+          MATCHi är ett komplett bokningssystem för racketsporter över hela
+          världen. Med över 10 års erfarenhet har vi hittat den perfekta
+          balansen mellan användarvänlig teknik och kraftfull funktionalitet.
+          Oavsett om ditt hjärta slår för padel, tennis, badminton,
+          bordtennis, pickleball eller squash. Vi skapar kontakt mellan
+          anläggningar och spelare så att användarna kan spela mer.
+        </p>
+      </div>
+    </div>
+    <div class="conatiner">
+      <div class="bottom">
+        <div class="row">
+          <div class="phone"></div>
+          <div class="download-buttons"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="filler"></div>
+  <div class="filler"></div>
+  <div class="filler"></div>
   <div class="filler"></div>
   <footer id="footer">
-    <div class="footer-div1">
-      <h4>Support</h4>
-      <ul class="unstyle">
-        <li>
+    <div class="footercontainer">
+      <div class="footer-div1">
+        <h4 class="h4footer">Support</h4>
+        <div>
           <i class="fas fa-signal fa-fw" aria-hidden="true"></i>
           <a href="https://www.matchi.se/" style="color: white;">Driftstatus</a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle fa-fw"></i>
+          <a href="https://matchiplayers.zendesk.com/hc/sv" style="color: white;">HjälpCenter</a>
+        </div>
+      </div>
+      <div class="footer-div2">
+        <h4 class="h4footer">Företag</h4>
+        <div>
+          <i class="fas fa-info-circle fa-fw"></i>
+          <a href="https://playmore.matchi.com/sv/om-oss" style="color: white;">Om oss</a>
+        </div>
+        <div>
+          <i class="fas fa-info-circle fa-fw"></i>
+          <a href="/home/privacypolicy" style="color: white;">Integritetspolicy</a>
+        </div>
+        <div>
+          <i class="fa fa-info-circle fa-fw"></i>
+          <a href="/home/useragreement" style="color: white;">
+            Användarvillkor</a>
+        </div>
+        <div>
+          <i class="fa fa-suitcase fa-fw"></i>
+          <a href="https://jobs.matchi.se" style="color: white;">
+            Karriär</a>
+        </div>
+        <div>
+          <i class="fas fa-address-card fa-fw"></i>
+          <a href="https://playmore.matchi.com/spca" style="color: white;">
+            Tilläggsskydd för myndigheter</a>
+        </div>
+      </div>
+      <div class="footer-div3">
+        <h4 class="h4footer">Besöksadress</h4>
+        <div>Gullbergs Strandgata 15</div>
+        <div>411 04 Göteborg Sverige</div>
+      </div>
+      <div class="footer-div4">
+        <h4 class="h4footer">Sociala Länkar</h4>
+        <div>
+          <i class="fab fa-facebook-square"></i>
+          <a href="https://www.facebook.com/matchisports/" style="color: white;">
+            facebook.com/matchisports
+          </a>
+        </div>
+        <div>
+          <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/matchisports/" style="color: white;">
+            instagram.com/matchisports
+          </a>
+        </div>
+        <div>
+          <i class="fas fa-rss-square"></i>
+          <a id="matchi" href="https://playmore.matchi.com/en/matchi-insights" style="color: white;">
+            MATCHi blogg
+          </a>
+        </div>
+        <div class="spacebetween"></div>
+      </div>
+      <div class="cookies">
+        <h6 class="h6footer">Cookieinställningar</h6>
+        <h6 id="h6row" class="hidden-xs">|</h6>
+        <h6 id="h6row" class="h6footer">© 2025 matchi.se</h6>
+        <h6 id="h6row" class="hidden-xs">|</h6>
+        <h6 id="h6row" class="h6footer">version 250417.3a05850</h6>
+        <h6 id="hidden-xs" class="h6footer" href="">Desktop Version</h6>
+        <li class="unstyle">
+          <select class="inputlanguage" name="" id="">
+            <option value="sv" selected="selected">sv</option>
+          </select>
         </li>
-      </ul>
-      <div>
-        <i class="fas fa-question-circle fa-fw"></i>
-        <a href="https://matchiplayers.zendesk.com/hc/sv" style="color: white;">HjälpCenter</a>
       </div>
-    </div>
-    <div class="footer-div2">
-      <h4>Företag</h4>
-      <div>
-        <i class="fas fa-info-circle fa-fw"></i>
-        <a href="https://playmore.matchi.com/sv/om-oss" style="color: white;">Om oss</a>
-      </div>
-      <div>
-        <i class="fas fa-info-circle fa-fw"></i>
-        <a href="/home/privacypolicy" style="color: white;">Integritetspolicy</a>
-      </div>
-      <div>
-        <i class="fa fa-info-circle fa-fw"></i>
-        <a href="/home/useragreement" style="color: white;">
-          Användarvillkor</a>
-      </div>
-      <div>
-        <i class="fa fa-suitcase fa-fw"></i>
-        <a href="https://jobs.matchi.se" style="color: white;">
-          Karriär</a>
-      </div>
-      <div>
-        <i class="fas fa-address-card fa-fw"></i>
-        <a href="https://playmore.matchi.com/spca" style="color: white;">
-          Tilläggsskydd för myndigheter</a>
-      </div>
-    </div>
-    <div class="footer-div3">
-      <h4>Besöksadress</h4>
-      <div>Gullbergs Strandgata 15</div>
-      <div>411 04 Göteborg Sverige</div>
-    </div>
-    <div class="footer-div4">
-      <h4>Sociala Länkar</h4>
-      <div>
-        <i class="fab fa-facebook-square"></i>
-        <a href="https://www.facebook.com/matchisports/" style="color: white;">
-          facebook.com/matchisports
-        </a>
-      </div>
-      <div>
-        <i class="fab fa-instagram"></i>
-        <a href="https://www.instagram.com/matchisports/" style="color: white;">
-          instagram.com/matchisports
-        </a>
-      </div>
-      <div>
-        <i class="fas fa-rss-square"></i>
-        <a id="matchi" href="https://playmore.matchi.com/en/matchi-insights" style="color: white;">
-          MATCHi blogg
-        </a>
-      </div>
-      <div class="spacebetween"></div>
-    </div>
-    <div class="cookies">
-      <h6>Cookieinställningar</h6>
-      <h6>© 2025 matchi.se version 250416.7494ed2</h6>
-      <h6>Desktop Version</h6>
     </div>
   </footer>
 </body>
 
 </html>
-=======
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="Css/mobile.css" />
-    <link rel="stylesheet" href="Css/tablet.css" />
-    <link rel="stylesheet" href="Css/dekstop.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div class="header-div-container">
-        <nav class="header-nav-bar">
-          <a class="a-menu-logo" href="#">
-            <img
-              src="Images\matchi-logo-white-on-black.svg"
-              alt="Företagets logga Matchi"
-            />
-          </a>
-          <span class="material-icons span-header-icon">menu</span>
-        </nav>
-        <nav class="nav-bar-collapse">
-          <ul class="nav-bar-left">
-            <li>
-              <a href="#">
-                <span>BOKA</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span>AKTIVITETER</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span>ANLÄGGNINGAR</span>
-              </a>
-            </li>
-            <li>
-              <a class="a-perks" href="#">
-                <span> HÄLSOFÖRMÅN OCH PRESENTKORT</span>
-              </a>
-            </li>
-            <li>
-              <a class="a-connect-facillity" href="#">
-                <span class="span-connect-facility">ANSLUT DIN ANLÄGGNING</span>
-              </a>
-            </li>
-          </ul>
-          <ul class="nav-bar-right">
-            <li>
-              <a href="#">
-                <span class="SV-arrow">
-                  SV
-                  <b class="material-icons" style="font-size: 15px"
-                    >arrow_drop_down</b
-                  >
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span>LOGGA IN</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span>REGISTRERA DIG</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="hero">
-        <div class="splash-container">
-          <div class="hero-container">
-            <div class="stripe">
-              <div class="main-div">
-                <div class="text-center">
-                  <h2 class="h1">
-                    Hitta anläggningar & lediga tider nära dig!
-                  </h2>
-                </div>
-                <div class="space-10"></div>
-                <form class="form-main" action="/" method="post">
-                  <button class="sport-selector">
-                    Alla sporter
-                    <span class="material-icons arrow-icon"
-                      >arrow_drop_down</span
-                    >
-                  </button>
-                  <div class="form-div">
-                    <input
-                      type="text"
-                      placeholder="2025-04-20"
-                      class="form-input"
-                    />
-                    <span class="fa-solid fa-calendar calendar-icon"></span>
-                  </div>
-                  <div class="form-div">
-                    <input
-                      type="text"
-                      placeholder="Hitta anläggning, stad ..."
-                      class="form-input form-input-last"
-                    />
-                  </div>
-                  <button class="button-smash">SMASH!</button>
-                </form>
-                <div class="space-20"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <section class="about">
-      <div class="hero-container">
-        <div class="top">
-          <h2 class="h2-about">
-            Vi vill göra racketsporter roligare, enklare och mer tillgängliga
-          </h2>
-          <p class="p-about">
-            MATCHi är ett komplett bokningssystem för racketsporter över hela
-            världen. Med över 10 års erfarenhet har vi hittat den perfekta
-            balansen mellan användarvänlig teknik och kraftfull funktionalitet.
-            Oavsett om ditt hjärta slår för padel, tennis, badminton,
-            bordtennis, pickleball eller squash. Vi skapar kontakt mellan
-            anläggningar och spelare så att användarna kan spela mer.
-          </p>
-        </div>
-      </div>
-      <div class="conatiner">
-        <div class="bottom">
-          <div class="row">
-            <div class="phone"></div>
-            <div class="download-buttons"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="filler"></div>
-    <div class="filler"></div>
-    <div class="filler"></div>
-    <div class="filler"></div>
-  </body>
-</html>
->>>>>>> 6b480ef93f67d9045ad5390d6c1caed57b6ed455
