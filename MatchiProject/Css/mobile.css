@@ -52,30 +52,56 @@ h4 {
     text-align: center;
 }
 
+#topfooter {
+    max-height: 157px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.topfootercontainer {
+    display: flex;
+    margin: auto;
+    min-height: 56px;
+    max-height: 212px;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.topfooterpic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px; 
+}
+
+.partner {
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.partner img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .footercontainer {
+    width: 100%;
+    max-width: 1200px; 
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-#topfooter .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    text-size-adjust: 100;
-    flex-wrap: nowrap;
-    gap: 24px;
-    width: 100%;
-}
-
-.topfooterpic {
-    width: 25%;
-}
-
-.partner {
-    margin: 20px 0;
+    box-sizing: border-box;
 }
 
 .footer-column {
@@ -356,13 +382,6 @@ header {
 
 .bottom {
     padding-top: 20px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    width: 10rem;
-    height: 190px;
 }
 
 .phone {
