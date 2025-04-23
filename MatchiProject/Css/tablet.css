@@ -216,5 +216,36 @@
         margin-right: 20px;
     }
 
+    #topfooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 157px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .topfootercontainer {
+        box-sizing: border-box;
+        max-width: 1300px;
+        margin: 0;
+        column-gap: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    
+    .topfootercontainer > * {
+        flex: 1 1 0;
+    
+    }
+
+
+
 
 }
