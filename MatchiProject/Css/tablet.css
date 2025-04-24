@@ -120,6 +120,50 @@
         margin: 0 0;
     }
 
+    .about{
+        padding-top: 40px
+    }
+
+    .first-article{
+        padding: 40px 0;
+    }
+
+    .site-stats{
+        padding: 40px 0;
+    }
+    .flex-container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .for-users{
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px
+    }
+
+    .container-section{
+        flex: 1;
+        max-width: 1000px;
+    }
+
+    .for-users .container-section{
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+
+    .macbook-container{
+        flex: 1;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        height: 465px;
+    }
+
+    .macbook-container img{
+        height: 100%;
+        object-fit: cover;
+        object-position: left;
+    }
 }
 
 @media(width >=992px) {
