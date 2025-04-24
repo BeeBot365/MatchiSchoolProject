@@ -51,18 +51,16 @@ h4 {
 .topfootercontainer {
     display: flex;
     margin: auto;
-    min-height: 56px;
-    max-height: 212px;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
 
-.row {
+.rowone {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .topfooterpic {
@@ -86,7 +84,7 @@ h4 {
 #footer {
     background-color: #222;
     color: #ffffff;
-    font-size: .7em;
+    font-size: .8em;
     padding: 30px 0 20px;
     text-align: center;
 }
@@ -130,7 +128,7 @@ h6 {
     justify-content: space-between;
     font-size: 1.75rem;
     font-weight: normal;
-   
+    color: rgb(199, 197, 197);
 }
 
 #h6row {
