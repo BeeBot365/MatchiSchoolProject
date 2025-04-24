@@ -124,13 +124,47 @@
         padding-top: 40px
     }
 
-    .first-article{
-        padding: 40px 0;
+    .grid-area {
+        grid-template-columns: 1fr 0.3fr 1fr;
+        grid-template-areas:
+        "m t t"
+        "m b b";
+        position: relative;
     }
 
+    .first-article{
+        padding: 40px 0;
+        padding-bottom: 20px;
+        grid-area: t;
+    }
+    
+    .phone-container {
+        grid-area: m;
+        height: 100%;
+        width: 105%;
+        position: absolute;
+        bottom: 35px;
+        padding-left: 0px;
+        right: 20px;
+        
+    }
+    
+    .phone {
+        height: 100%;
+    }
+                
+    .download-buttons-container {
+        grid-area: b;
+        align-items: flex-start;
+        height: 190px;
+        margin-bottom: -50px;
+        padding-left: 5px
+    }
+                
     .site-stats{
         padding: 40px 0;
     }
+
     .flex-container{
         flex-direction: row;
         justify-content: space-around;
@@ -236,8 +270,6 @@
         justify-content: center;
     }
 
-
-
     .splash-container {
         padding-top: 110px;
         padding-bottom: 100px;
@@ -255,9 +287,10 @@
         width: 750px;
     }
 
-
-
-
+    .phone-container{
+        width: 100%;
+        height: 130%;
+    }
 }
 
 @media(width >=1200px) {
@@ -332,7 +365,5 @@
         flex: 1 1 0;
     
     }
-
-
 
 }

@@ -368,7 +368,16 @@ header {
     display: block;
 }
 
+.grid-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "t t t"
+    "m b b";
+}
+
 .first-article{
+    grid-area: t;
     height: auto;
 }
 
@@ -395,6 +404,7 @@ header {
 }
 
 .second-article{
+    
     padding-top: 20px;
     height: 210px;
 }
@@ -409,6 +419,7 @@ header {
 } 
 
 .phone-container{
+    grid-area: m;
     padding-left: 15px;
     padding-right: 15px;
     height: 190px;
@@ -426,11 +437,11 @@ header {
 } 
 
 .download-buttons-container{
+    grid-area: b;
     height: 190px;
     padding: 0 15px;
     display: flex;
     align-items: center;
-    flex: 67%;
 }
 
 .download-buttons{
