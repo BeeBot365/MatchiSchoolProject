@@ -152,6 +152,22 @@
         margin-top: -10px;
     }
 
+    .container-sectionfacility{
+        flex: 1;
+        max-width: auto;
+    }
+
+    .for-facility .container-sectionfacility{
+        margin-left: 50px;
+        margin-top: -10px;
+    }
+
+    .facility{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 40px
+    }
+
     .macbook-container{
         flex: 1;
         padding-right: 0px;
@@ -164,7 +180,33 @@
         object-fit: cover;
         object-position: left;
     }
+
+    .macbook-containerfacility{
+        flex: 1;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        height: 465px;
+    }
+
+    .macbook-containerfacility img{
+        height: 100%;
+        min-width: 472px;
+        object-position: left;  
+    }
+    
+    .facilitydiv {
+        flex: 1;
+        height: 100%;
+        min-width: auto;
+        
+    }
+    
+    .facility {
+        overflow: hidden;
+    }
+
 }
+
 
 @media(width >=992px) {
     .nav-bar-collapse {
@@ -212,6 +254,8 @@
     .main-div {
         width: 750px;
     }
+
+
 
 
 }
@@ -288,7 +332,6 @@
         flex: 1 1 0;
     
     }
-
 
 
 

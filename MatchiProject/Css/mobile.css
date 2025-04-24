@@ -459,6 +459,14 @@ header {
     max-width: 900px;
 }
 
+.container-sectionfacility{
+    margin: auto;
+    padding: 0 0px;
+    max-width: 900px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
 
 .site-stats{
     background-color: #25ae5c;
@@ -506,6 +514,7 @@ header {
 .for-facility {
     padding-top: 20px;
     background-color: #22ad5c !important
+    
 }
 
 .users{
@@ -534,6 +543,7 @@ header {
     color: rgb(153, 153, 153);
     font-weight: 300;
 }
+
 
 .facility p{
     font-size: 13.8px;
@@ -625,12 +635,46 @@ header {
     color: #25ae5c;
     letter-spacing: 0.6px;
 }
+.facility a {
+    display: inline-block;
+    border: 2px solid white;
+    font-size: 10.8px;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 0.6px;
+}
+
+.facilitydiv {
+    flex: 1; /* Texten tar upp 1 del */
+    padding: 0 15px;
+}
 
 .macbook-container{
     padding: 0 15px;
 }
 
 .macbook-container img{
+    display: inline;
+    max-width: 100%;
+    height: auto;
+}
+
+.facility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.macbook-containerfacility{
+    padding: 0 15px;
+    height: 100%;
+    
+}
+
+.macbook-containerfacility img{
     display: inline;
     max-width: 100%;
     height: auto;
