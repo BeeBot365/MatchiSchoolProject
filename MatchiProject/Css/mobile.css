@@ -503,6 +503,11 @@ header {
     background-color: #fff;
 }
 
+.for-facility {
+    padding-top: 20px;
+    background-color: #22ad5c !important
+}
+
 .users{
 
 }
@@ -513,6 +518,13 @@ header {
     margin-bottom: 10px;
 }
 
+.facility h2{
+    font-size: 21px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
 .users p{
     font-size: 13.8px;
     line-height: 1.6;
@@ -520,6 +532,16 @@ header {
     margin: 0 0;
     margin-bottom: 20px;
     color: rgb(153, 153, 153);
+    font-weight: 300;
+}
+
+.facility p{
+    font-size: 13.8px;
+    line-height: 1.6;
+    padding: 0 0;
+    margin: 0 0;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
     font-weight: 300;
 }
 
@@ -538,6 +560,21 @@ header {
     color: #6e6e6e;
 }
 
+.checkedwhite{
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.checkedwhite li{
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #ffffff;
+}
+
 .checked li::before{
     content: "\f00c";
     font-family: "Font Awesome 5 Free";
@@ -548,6 +585,24 @@ header {
     font-weight: 900;
     border-radius: 50%;
     color: #fff;
+    margin-right: 10px;
+    margin-left: -15px;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    font: bold;
+}
+
+.checkedwhite li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: 900;
+    border-radius: 50%;
+    color: #22ad5c;
     margin-right: 10px;
     margin-left: -15px;
     font-size: 12px;
@@ -635,6 +690,10 @@ header {
     }
 
     .checked li{
+        font-size: clamp(12px, 2.435vw, 15px);
+    }
+
+    .checkedwhite li{
         font-size: clamp(12px, 2.435vw, 15px);
     }
 
