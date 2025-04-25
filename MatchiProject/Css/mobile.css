@@ -19,7 +19,6 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-
 }
 
 ul {
@@ -28,12 +27,11 @@ ul {
     margin: 0;
 }
 
+
 h4 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
-
 
 header {
     background-image: linear-gradient(90deg, rgb(34, 173, 92) 0%, rgb(107, 200, 70) 100%);
@@ -501,6 +499,7 @@ header {
     color: #25ae5c;
     letter-spacing: 0.6px;
 }
+
 .facility a {
     display: inline-block;
     border: 2px solid white;
@@ -513,7 +512,7 @@ header {
 }
 
 .facilitydiv {
-    flex: 1; /* Texten tar upp 1 del */
+    flex: 1;
     padding: 0 15px;
 }
 
