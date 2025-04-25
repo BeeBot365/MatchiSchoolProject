@@ -22,7 +22,6 @@ a {
 
 }
 
-/*Eventuellt ta bort då Tobias redan fixat*/
 ul {
     list-style: none;
     padding: 0;
@@ -33,145 +32,6 @@ h4 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
-.filler {
-    min-height: 70px;
-    width: 100%;
-    background-color: lightblue;
-}
-
-
-#topfooter {
-    max-height: 157px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-.topfootercontainer {
-    display: flex;
-    margin: auto;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.rowone {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.topfooterpic {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding: 0 15px; 
-}
-
-.partner {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.partner img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-
-#footer {
-    background-color: #222;
-    color: #ffffff;
-    font-size: .8em;
-    padding: 30px 0 20px;
-    text-align: center;
-}
-
-.footercontainer {
-    width: 100%;
-    max-width: 1200px; 
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-sizing: border-box;
-}
-
-.footer-column {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.cookies {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 20px;
-}
-
-h6 {
-    margin: 0;
-}
-
-.unstyle {
-    list-style: none;
-    text-align: center;
-    padding-left: 0;
-}
-
-.h4footer {
-    font-weight: 100 !important;
-    justify-content: space-between;
-    font-size: 1.75rem;
-    font-weight: normal;
-    color: rgb(199, 197, 197);
-}
-
-#h6row {
-    color: rgb(167, 166, 166);
-}
-
-.inputlanguage {
-    box-sizing: unset;
-    padding: 3px 16px;
-}
-
-
-@media (max-width: 767px) {
-
-    .footer-column,
-    .cookies {
-        flex-direction: column;
-    }
-
-    .hidden-xs {
-        display: none !important;
-    }
-
-    .h6footer {
-        font-size: 1rem;
-        font-weight: 600;
-    }
-
-    #h6row {
-        display: inline-block;
-        padding-left: 5px;
-        padding-right: 5px;
-        font-weight: lighter;
-    }
-
-    #topfooter .row {
-        gap: 16px;
-    }
-
-}
-
-
-
 
 
 
@@ -240,10 +100,8 @@ header {
     padding-top: 70px;
 }
 
-.hero-container {
+.container {
     margin: auto;
-    /* display: flex;
-    flex-direction: column; */
     padding-left: 20px;
     padding-right: 20px;
     max-width: 750px;
@@ -368,6 +226,12 @@ header {
     display: block;
 }
 
+.about-container{
+    padding: 0 20px;
+    margin: auto;
+    max-width: 750px;
+}
+
 .grid-area{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -478,7 +342,6 @@ header {
     overflow-x: hidden;
 }
 
-
 .site-stats{
     background-color: #25ae5c;
     color: #fff;
@@ -528,10 +391,6 @@ header {
     
 }
 
-.users{
-
-}
-
 .users h2{
     font-size: 21px;
     margin: 0;
@@ -554,7 +413,6 @@ header {
     color: rgb(153, 153, 153);
     font-weight: 300;
 }
-
 
 .facility p{
     font-size: 13.8px;
@@ -632,10 +490,6 @@ header {
     font: bold;
 }
 
-.users-p{
-    margin-bottom: 10px;
-}
-
 .users a {
     display: inline-block;
     border: 2px solid #25ae5c;
@@ -691,8 +545,107 @@ header {
     height: auto;
 }
 
+#topfooter {
+    max-height: 157px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.topfootercontainer {
+    display: flex;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.rowone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topfooterpic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.partner {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.partner img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#footer {
+    background-color: #222;
+    color: #ffffff;
+    font-size: .8em;
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+.footercontainer {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cookies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+
+h6 {
+    margin: 0;
+}
+
+.unstyle {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.h4footer {
+    font-weight: 100 !important;
+    justify-content: space-between;
+    font-size: 1.75rem;
+    font-weight: normal;
+    color: rgb(199, 197, 197);
+}
+
+#h6row {
+    color: rgb(167, 166, 166);
+}
+
+.inputlanguage {
+    box-sizing: unset;
+    padding: 3px 16px;
+}
+
+
 @media(width >=480px) {
-    .hero-container {
+    .container {
         padding: 0px 30px;
     }
 
