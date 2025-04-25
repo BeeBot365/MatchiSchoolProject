@@ -1,7 +1,8 @@
 @media (width >=768px) {
     #footer {
         text-align: left;
-        padding-left: 1rem;
+        padding-left: 0.5rem;
+        font-size: 0.8rem;
     }
 
     .footercontainer {
@@ -12,7 +13,15 @@
         display: none !important;
     }
 
+    .hidden-xs {
+        display: flex;
+    }
+
     .cookies {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 20px;
         text-align: center;
         padding-left: 5rem;
         padding-right: 5rem;
